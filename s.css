@@ -1,0 +1,104 @@
+
+body,
+html {
+    overflow-y: hidden;
+    height: 100%
+}
+a,
+a:active,
+a:focus,
+a:hover,
+body {
+    color: #000
+}
+html {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url()
+}
+body {
+    background: rgba(0,0,0,0.1);
+    width: 100%
+}
+div {
+  overflow: hidden;
+}
+div.logo {
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 10px solid #fff;
+    padding: 10px
+}
+main {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center
+}
+main h1 {
+    padding-top: 20px;
+    letter-spacing: 5px;
+    font-weight: 600;
+    font-size: 34px
+}
+main h2 {
+    padding-top: 5px;
+    letter-spacing: 3.25px;
+    font-weight: 100;
+    font-size: 16px;
+    color: #EAEAEA
+}
+footer {
+    color: #6f6f6f;
+    opacity: .9;
+    font-size: 12px;
+    letter-spacing: .75px
+}
+footer a,
+footer a:active,
+footer a:focus,
+footer a:hover {
+    color: #FFFFFF
+}
+video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background-size: cover;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%) scale(1.03);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+
+}
+form {
+   margin-left:auto;
+   margin-right:auto;
+   width:100px;
+}
+body, a, a:link{cursor:url(../img/c.cur), default;} a:hover {cursor:url(./c.cur),pointer;}
+#img {
+  animation: 2s pulse infinite linear;
+}
+#bg {
+    position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1000;
+  background-size: cover;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
